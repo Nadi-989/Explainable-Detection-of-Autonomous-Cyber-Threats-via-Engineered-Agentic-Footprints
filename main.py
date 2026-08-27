@@ -46,7 +46,7 @@ try:
     BASE = os.path.dirname(SRC) if os.path.basename(SRC) == "src" else SRC
 except NameError:
     BASE = os.getcwd()
-DATA = os.path.join(BASE, "data")
+DATA = DATA = BASE  
 RES  = os.path.join(BASE, "results");  os.makedirs(RES, exist_ok=True)
 FIG  = os.path.join(BASE, "figures");  os.makedirs(FIG, exist_ok=True)
 
