@@ -1,0 +1,16 @@
+dataset,algorithm,f1_mean,f1_std,mcc_mean,mcc_std,auc_mean
+NSL-KDD,Decision Tree,0.9937,0.0017,0.9881,0.0032,0.9924
+NSL-KDD,Gradient Boosting,0.9945,0.0012,0.9897,0.0022,0.9995
+NSL-KDD,Logistic Regression,0.9763,0.0035,0.9554,0.0066,0.9961
+NSL-KDD,Random Forest,0.9973,0.0009,0.995,0.0017,0.9999
+NSL-KDD,SVM (RBF),0.985,0.003,0.9718,0.0056,0.9973
+Phishing,Decision Tree,0.789,0.0094,0.6847,0.0085,0.8766
+Phishing,Gradient Boosting,0.81,0.0142,0.6935,0.0171,0.8984
+Phishing,Logistic Regression,0.7636,0.0097,0.6265,0.0187,0.8594
+Phishing,Random Forest,0.8453,0.0089,0.719,0.0147,0.9165
+Phishing,SVM (RBF),0.797,0.0093,0.691,0.0111,0.8818
+Spambase,Decision Tree,0.8898,0.011,0.8166,0.018,0.9152
+Spambase,Gradient Boosting,0.9354,0.0081,0.8943,0.0134,0.9861
+Spambase,Logistic Regression,0.9091,0.0087,0.8486,0.0144,0.9731
+Spambase,Random Forest,0.9274,0.0111,0.8826,0.0174,0.9833
+Spambase,SVM (RBF),0.9173,0.0104,0.8638,0.0167,0.9762
